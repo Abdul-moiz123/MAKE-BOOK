@@ -1,0 +1,788 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#child1 {
+    background-color: palevioletred;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 5vw;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#child1 ul {
+    list-style: none;
+    display: flex;
+}
+
+#child1 li {
+    margin: 10px;
+    padding: 4px 4px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px white;
+}
+
+#child1 li:hover {
+    background-color: darkgray;
+}
+
+#child1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#child1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 5px white;
+}
+
+#fixed{
+    width: 45px;
+    height: 25px;
+    font-size:x-large ;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: red;
+    position: fixed;
+    top: 5rem;
+    left: 75rem;
+    z-index: 1;
+   
+}
+#fixed a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(255, 182, 206);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+#child2 main div{
+    display: flex;
+   
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+main div:hover{
+    transform: scale(1,1.1);
+    border: 2px solid black;
+    
+}
+
+#A {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#A h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#A h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#A img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#B {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#B h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#B h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#B img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#C {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#C h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#C h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#C img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#D {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#D h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#D h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#D img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#E {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 5px 5px;
+    padding: 62px ;
+    margin: 12px;
+}
+#E h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#E h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#E img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#F {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#F h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#F h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#F img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#G {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#G h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#G h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#G img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#H {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#H h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#H h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#H img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#I {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#I h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#I h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#I img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#J {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#J h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#J h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#J img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#K {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#K h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#K h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#K img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#L {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#L h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#L h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#L img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#M {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#M h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#M h1{
+    font-family: 'Luckiest Guy', cursive;
+  color: red;
+}
+#M img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#N {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#N h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#N h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#N img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#O {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#O h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#O h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#O img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#P {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#P h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#P h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#P img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#Q {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#Q h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#Q h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#Q img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#R {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#R h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#R h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#R img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#S {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#S h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#S h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#S img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#T {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#T h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#T h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#T img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#U {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 72px 23px ;
+    margin: 22px;
+}
+#U h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#U h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#U img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#V {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#V h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#V h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#V img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#W {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#W h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#W h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#W img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#X {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#X h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#X h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#X img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#Y {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#Y h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#Y h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#Y img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+
+#Z {
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 12px 12px;
+    padding: 4rem ;
+    margin: 22px;
+}
+#Z h4{
+    position: relative;
+    top: 1.2em;
+    color: blueviolet;
+}
+#Z h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: red;
+}
+#Z img{
+    border: none;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+#child3 footer  {
+    max-width: 500px;
+    max-height: 900px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+}
+footer img{
+    width: 500px;
+}
+
+form{
+    background-color: cadetblue;
+    text-shadow: 2px 2px 3px white,-2px -2px 3px white;
+}
+
+form label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+form input,textarea:focus{
+    background-color: burlywood;
+    color: black;
+}
+
